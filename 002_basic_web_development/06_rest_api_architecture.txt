@@ -1,0 +1,11 @@
+Whai is Rest api and it arthitecture ?
+    REST API ย่อมาจาก Respresentational State Transfer Application Programmming Interface
+    
+    โดยมันเป็นสถาปัตยกรรมยอดนิยมสำหรับการออกแบบแอปพลิเคชันเครือข่าย
+    โดยจะมีการแลกเปลี่ยนข้อมูลกันในรูปแบบของ json หรือ xml
+
+    * REST IS STATELESS
+
+    เป็นรูปแบบหนึ่งในการออกแบบ api ที่ใช้สื่อสารถกับระบบต่าง ๆ ผ่าน http/https 
+    โดยมันจะให้บริการในรูปแบบที่เป็นทรัพยากร (Resource) เช่น ข้อมูลผู้ใช้ ข้อมูลสินค้า
+    และใช้ http method (get, post, put, delete) เพื่อจัดการทรัพยากรเหล่านั้น
