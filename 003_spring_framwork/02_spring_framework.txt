@@ -1,0 +1,19 @@
+Introduction to Spring Framework
+    ถูกสร้างโดย Rod Johnson ในปี 2002
+    ถูกปล่อยให้ใช้ครั้งแรกเมื่อ มีนาคม 2004
+
+    โดย spring ทีข้อดีดังนี้
+        1. Simplicity       มีความเรียบง่าย ไม่ซับซ้อน
+        2. Modularity       มีสถาปัตยกรรมที่แยกส่วนกันชัดเจน
+        3. Testability      ทดสอบได้ง่าย
+
+    ส่วนประกอบสำคัญของ Spring
+        1. Core Spring Framework 
+        2. Spring Boot
+        3. Spring Data      ช่วยเราจัดการกับข้อมูล เช่น การทำงานกับฐานข้อมูล
+        4. Spring Security  ช่วยเพิ่มความปลอดภัยในกับระบบ
+        5. Spring Cloud     เป็นเครื่องมือที่ช่วย deploy ระบบได้อย่างรวดเร็ว
+
+    Use Cases
+        - Enterprise Applications
+        - Microservices Architecture
