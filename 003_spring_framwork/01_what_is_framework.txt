@@ -1,0 +1,17 @@
+What is Framework ?
+    ทำไมเราถึงต้องการ framework
+        เว็บไซต์ส่วนใหญ่มักจะต้องการบริการ
+            - Security
+            - Database
+            - Authentication
+        แต่ถ้าเราจะต้องทำทั้งหมดเองตั้งแต่เริ่มต้น จะเสียเวลาอย่างมาก
+
+    โดยเฟรมเวิร์คคือ
+        ชุดของเครื่องมือหรือโมดูลที่จำเป็นสำหรับการทำงานมารตฐาน
+    
+    โดยเฟรมเวิร์คยอดนิยมมีดังนี้
+        1. Spring Framework (Java)
+        2. Django (Python)
+        3. Flask (Python)
+        4. Express (JavaScript)
+        5. Ruby on Rail (Ruby)
