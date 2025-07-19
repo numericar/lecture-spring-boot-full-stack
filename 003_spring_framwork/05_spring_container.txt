@@ -1,0 +1,8 @@
+Spring Container
+    
+    ถูกแบ่งออกเป็น 2 ประเภท
+        1. ApplicationContext   เป็นระบบที่ดูแลภาพรวมใหญ่กว่า BeanFactory
+        2. BeanFactory          ใช้สำหรับการทำ dependency injection
+
+    โดยจะมีการสร้าง configuration ไฟล์เพื่อระบุว่าแต่ละ object จะต้องจัดการอย่างไร
+    โดยจะถูกจัดการโดย Spring Framework
