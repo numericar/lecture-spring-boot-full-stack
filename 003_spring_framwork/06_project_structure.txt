@@ -1,0 +1,17 @@
+
+    Maven Repository
+        เป็นพื้นที่จัดเก็บ dependency ทั้งหมดที่เราสามารถโหลดมาใช้งานได้
+
+    --
+
+    pom.xml
+        จัดเก็บการตั้งค่าต่าง ๆ ของโปรเจค เช่น
+            1. dependency
+            2. project configs
+
+
+    --
+    Spring Core 
+        เป็นรากฐานของ spring framework
+
+    Spring Context
