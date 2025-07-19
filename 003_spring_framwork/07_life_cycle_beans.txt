@@ -1,0 +1,13 @@
+Life cycle of Bean
+    Bean Definition
+         
+    Bean Configuration 
+        เราสามารถตั้งค่า bean ได้ผ่าน xml configuration file, annotation, java based configuration
+        โดยอาจมีการใช้ annitation อื่น ๆ เพื่อบอก spring ว่าสิ่งนี้คือ bean ได้ เช่น @Service, @Repository
+
+        life cycle
+            1. Instantiation
+            2. Population of properties
+            3. Initialization
+            4. Ready for use 
+            5. Destruction
