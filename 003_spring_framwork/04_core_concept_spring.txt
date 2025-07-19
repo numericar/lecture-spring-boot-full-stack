@@ -1,0 +1,26 @@
+Core concept of Spring
+    Inversion of Control (IoC)
+        เป็นแนวคิดที่จะควบคุมการสร้างวัตถุในระบบ และการจัดการกับวงจนชีวิต
+
+        โดยแทนที่เราจะทำการสร้างวัตถุเอง (new Object()) 
+        เราจะให้ framework จัดการให้กับเราแทน
+
+    Dependency Injection (DI)
+        เป็นรูปแบบที่ใช้กันทั่วไปในการเขียนโปรแกรมเชิงวัตถุ โดยเป็นการให้คลาสที่เรียกใช้งาน
+        มีหน้าที่รับผิดชอบส่วนประกอบที่ class ที่ถูกเรียกใช้งานต้องการ ว่าจะต้องใช้
+        class inplement อะไรบ้าง
+
+        เช่น 
+            class UserService {
+                private RoleService roleService;
+
+                public UserService(RoleService roleService) {
+                    this.roleService = roleService;
+                }
+            }
+
+            จากตัวอย่าง คลาส user จะมีการสั่งให้คนที่เรียกใช้มัน มีหน้าที่รับผิดชอบว่าจะต้องใช้ role service 
+            อะไรในการทำงาน
+
+    Bean
+        object ใด ๆ ก็ตามที่ถูกบริหารจัดการโดย framework จะถูกเรียกว่า bean
