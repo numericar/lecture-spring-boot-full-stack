@@ -1,0 +1,6 @@
+Dependency Injection
+    เป็น design pattern ที่ใช้ในการพัฒนาซอฟแวร์ โดยมันจะทำให้ส่วนประกอบต่าง ๆ ที่จะต้องเชื่อมต่อกันในระบบ เชื่อมต่อกันแบบหลวม ๆ
+
+    โดยการทำ Dependency Injection จะมี 2 ประเภท
+        1. Constructor Injection 
+        2. Setter Injection
