@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="carSpecification" class="com.spring.exams.constructors.Specification">
+        <property name="make" value="bmw" />
+        <property name="model" value="m2" />
+    </bean>
+
+    <bean id="myCar" class="com.spring.exams.constructors.Car">
+        <!-- ref ไปหา bean ที่ถูกสร้างไว้แล้ว (ด้านบน) -->
+        <constructor-arg ref="carSpecification" />
+    </bean>
+</beans>

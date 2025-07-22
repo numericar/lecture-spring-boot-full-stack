@@ -1,0 +1,11 @@
+Constructor Injection
+    ระบบที่เราต้องการจะใช้งาน จะถูกนำเข้ามาผ่าน constructor ของ class 
+
+    ตัวอย่าง
+        class UserService {
+            private UserRepository userRepository;
+
+            public UserService(UserRepository userRepository) {
+                this.userRepository = userRepository;
+            }
+        }
